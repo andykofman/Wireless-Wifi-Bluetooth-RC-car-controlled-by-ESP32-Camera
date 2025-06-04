@@ -1,6 +1,6 @@
-
-
 # Project: Arduino-based Car Control System (Wifi + Bluetooth) with ESP32 - Camera
+
+![Project Image](Project.jpeg)
 
 ## Overview
 This project involves an Arduino-based car control system that allows for remote control of the car using a web interface. The system also includes a camera for visual feedback, and it uses WebSocket communication for real-time control and image transmission.
@@ -13,6 +13,22 @@ The primary objective of this project is to develop a WiFi-enabled car that can 
 - **Motors**: Controlled via H-bridge motor drivers for movement in multiple directions.
 - **WiFi Module**: Connects to a network to allow remote control via a web interface.
 - **Web Interface**: Provides controls for car movement and speed, as well as a live camera feed.
+
+## Project Structure
+```
+├── README.md
+├── Project.jpeg
+├── Wireless Controlled Car with Camera.c
+├── include/
+│   └── common.h
+└── src/
+    ├── main.cpp
+    ├── config/
+    ├── camera/
+    ├── movement/
+    ├── motor/
+    └── webserver/
+```
 
 ## Libraries Used
 - `esp_camera.h`: For camera operations.
